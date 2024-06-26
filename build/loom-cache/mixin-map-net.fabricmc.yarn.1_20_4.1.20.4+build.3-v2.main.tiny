@@ -1,0 +1,5 @@
+v1	named	intermediary
+FIELD	kts/dev/ktsbk/minecraft/mixin/WorldRendererMixin	Lnet/minecraft/client/render/BufferBuilderStorage;	bufferBuilders	field_20951
+FIELD	kts/dev/ktsbk/minecraft/mixin/ClientPlayerInteractionManagerMixin	Lnet/minecraft/client/MinecraftClient;	client	field_3712
+METHOD	kts/dev/ktsbk/minecraft/mixin/ClientPlayerInteractionManagerMixin	(Lnet/minecraft/client/world/ClientWorld;Lnet/minecraft/client/network/SequencedPacketCreator;)V	sendSequencedPacket	method_41931
+METHOD	kts/dev/ktsbk/minecraft/mixin/ClientPlayerInteractionManagerMixin	(Lnet/minecraft/client/network/ClientPlayerEntity;Lnet/minecraft/util/Hand;Lnet/minecraft/util/hit/BlockHitResult;)Lnet/minecraft/util/ActionResult;	interactBlockInternal	method_41934

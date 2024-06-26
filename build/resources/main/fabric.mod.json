@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "ktsbk",
+  "version": "1.6",
+  "name": "ktsbk",
+  "description": "",
+  "authors": [],
+  "contact": {
+    "repo": "https://github.com/MrEzhUk/ktsbk.git"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/ktsbk/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "kts.dev.ktsbk.client.KtsbkClient"
+    ]
+  },
+  "mixins": [
+    "ktsbk.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": "<=1.15.6",
+    "fabric": "*",
+    "minecraft": "~1.20.1"
+  }
+}

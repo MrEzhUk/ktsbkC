@@ -1,0 +1,60 @@
+{
+  "mappings": {
+    "kts/dev/ktsbk/minecraft/mixin/ClientPlayerInteractionManagerMixin": {
+      "Lnet/minecraft/client/network/ClientPlayerInteractionManager;sendSequencedPacket(Lnet/minecraft/client/world/ClientWorld;Lnet/minecraft/client/network/SequencedPacketCreator;)V": "Lnet/minecraft/class_636;method_41931(Lnet/minecraft/class_638;Lnet/minecraft/class_7204;)V",
+      "clickSlot": "Lnet/minecraft/class_636;method_2906(IIILnet/minecraft/class_1713;Lnet/minecraft/class_1657;)V",
+      "interactBlock": "Lnet/minecraft/class_636;method_2896(Lnet/minecraft/class_746;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;"
+    },
+    "kts/dev/ktsbk/minecraft/mixin/GenericContainerScreenMixin": {
+      "<init>": "Lnet/minecraft/class_476;<init>(Lnet/minecraft/class_1707;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V",
+      "render": "Lnet/minecraft/class_476;method_25394(Lnet/minecraft/class_332;IIF)V"
+    },
+    "kts/dev/ktsbk/minecraft/mixin/HandledScreenAccessor": {
+      "backgroundHeight": "field_2779:I",
+      "backgroundWidth": "field_2792:I",
+      "x": "field_2776:I",
+      "y": "field_2800:I"
+    },
+    "kts/dev/ktsbk/minecraft/mixin/HandledScreenMixin": {
+      "close": "Lnet/minecraft/class_465;method_25419()V",
+      "init": "Lnet/minecraft/class_465;method_25426()V"
+    },
+    "kts/dev/ktsbk/minecraft/mixin/WorldRendererInvoker": {
+      "drawCuboidShapeOutline": "method_3291(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lnet/minecraft/class_265;DDDFFFF)V"
+    },
+    "kts/dev/ktsbk/minecraft/mixin/WorldRendererMixin": {
+      "Lnet/minecraft/client/render/WorldRenderer;checkEmpty(Lnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_761;method_22979(Lnet/minecraft/class_4587;)V",
+      "render": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "kts/dev/ktsbk/minecraft/mixin/ClientPlayerInteractionManagerMixin": {
+        "Lnet/minecraft/client/network/ClientPlayerInteractionManager;sendSequencedPacket(Lnet/minecraft/client/world/ClientWorld;Lnet/minecraft/client/network/SequencedPacketCreator;)V": "Lnet/minecraft/class_636;method_41931(Lnet/minecraft/class_638;Lnet/minecraft/class_7204;)V",
+        "clickSlot": "Lnet/minecraft/class_636;method_2906(IIILnet/minecraft/class_1713;Lnet/minecraft/class_1657;)V",
+        "interactBlock": "Lnet/minecraft/class_636;method_2896(Lnet/minecraft/class_746;Lnet/minecraft/class_1268;Lnet/minecraft/class_3965;)Lnet/minecraft/class_1269;"
+      },
+      "kts/dev/ktsbk/minecraft/mixin/GenericContainerScreenMixin": {
+        "<init>": "Lnet/minecraft/class_476;<init>(Lnet/minecraft/class_1707;Lnet/minecraft/class_1661;Lnet/minecraft/class_2561;)V",
+        "render": "Lnet/minecraft/class_476;method_25394(Lnet/minecraft/class_332;IIF)V"
+      },
+      "kts/dev/ktsbk/minecraft/mixin/HandledScreenAccessor": {
+        "backgroundHeight": "field_2779:I",
+        "backgroundWidth": "field_2792:I",
+        "x": "field_2776:I",
+        "y": "field_2800:I"
+      },
+      "kts/dev/ktsbk/minecraft/mixin/HandledScreenMixin": {
+        "close": "Lnet/minecraft/class_465;method_25419()V",
+        "init": "Lnet/minecraft/class_465;method_25426()V"
+      },
+      "kts/dev/ktsbk/minecraft/mixin/WorldRendererInvoker": {
+        "drawCuboidShapeOutline": "method_3291(Lnet/minecraft/class_4587;Lnet/minecraft/class_4588;Lnet/minecraft/class_265;DDDFFFF)V"
+      },
+      "kts/dev/ktsbk/minecraft/mixin/WorldRendererMixin": {
+        "Lnet/minecraft/client/render/WorldRenderer;checkEmpty(Lnet/minecraft/client/util/math/MatrixStack;)V": "Lnet/minecraft/class_761;method_22979(Lnet/minecraft/class_4587;)V",
+        "render": "Lnet/minecraft/class_761;method_22710(Lnet/minecraft/class_4587;FJZLnet/minecraft/class_4184;Lnet/minecraft/class_757;Lnet/minecraft/class_765;Lorg/joml/Matrix4f;)V"
+      }
+    }
+  }
+}
